@@ -23,9 +23,9 @@
 
 'use strict';
 
-const numberOfFilms = prompt('Сколько фильмов вы уже просмотрели?');
+const numberOfFilms = prompt('Сколько фильмов вы уже просмотрели?', '');
 
-let personalMovieDB = {
+const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
     actors: {},
